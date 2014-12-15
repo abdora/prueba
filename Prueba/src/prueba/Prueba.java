@@ -2,13 +2,6 @@ package prueba;
 
 
 
-
-
-
-
-
-
-
 import java.text.DateFormat;
 
 import java.text.ParseException;
@@ -35,7 +28,9 @@ java.util.Date ahora = new java.util.Date();
 
 SimpleDateFormat formateador = new SimpleDateFormat("dd-MM-yyyy");
 
+
 return formateador.format(ahora);
+
 
 }
 
