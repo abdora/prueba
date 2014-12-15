@@ -27,6 +27,7 @@ public static String getFechaActual() {
 java.util.Date ahora = new java.util.Date();
 
 SimpleDateFormat formateador = new SimpleDateFormat("dd-MM-yyyy");
+//segunda rama
 
 
 return formateador.format(ahora);
